@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <EditText
+        android:id="@+id/edit_first_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Имя" />
+
+    <EditText
+        android:id="@+id/edit_last_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Фамилия" />
+
+    <EditText
+        android:id="@+id/edit_middle_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Отчество" />
+
+    <EditText
+        android:id="@+id/edit_group"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Группа" />
+
+    <Button
+        android:id="@+id/btn_convert_to_json"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Преобразовать в JSON" />
+
+    <TextView
+        android:id="@+id/text_json_result"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp" />
+
+</LinearLayout>
